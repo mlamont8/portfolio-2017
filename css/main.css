@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Chronicle Display Bold';
+    src: url(../fonts/chronicle-display/ChronicleDisplay-Bold.eot);
+    src: url(../fonts/chronicle-display/ChronicleDisplay-Bold.eot?#iefix) format("embedded-opentype"),url(../fonts/chronicle-display/ChronicleDisplay-Bold.woff2) format("woff2"),url(../fonts/chronicle-display/ChronicleDisplay-Bold.woff) format("woff"),url(../fonts/chronicle-display/ChronicleDisplay-Bold.ttf) format("truetype"),url(../fonts/chronicle-display/ChronicleDisplay-Bold.svg#ChronicleDisplay-Bold) format("svg");
+    font-weight: 700;
+    font-style: normal
+}
+
+/*.navbar.navbar-inverse .transparent.navbar-fixed-top {
+   border-width: 0px;
+   -webkit-box-shadow: 0px 0px;
+   box-shadow: 0px 0px;
+   background-color: rgba(0,0,0,0.0);
+   background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+   background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+   background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}*/
+nav.navbar.navbar-default {
+  background-color: transparent;
+  -webkit-box-shadow: 0px 0px;
+  box-shadow: 0px 0px;
+  border-width: 0;
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+
+.section {
+  width: 100%;
+  min-height: 700px;
+  padding: 0;
+}
+
+.title-container.text-center {
+    padding-top: 100px;
+}
+.title{
+      font-family: "Chronicle Display Bold",Georgia,serif;
+      font-weight: 700;
+      font-size: 4.5em;
+      color: white;
+}
+
+h2.subtitle {
+    padding-top: 20px;
+    font-family: 'Average',serif;
+    font-weight: 500;
+    color: white;
+}
+
+#intro-section{
+  background-color: blue;
+  background: url(../img/header-bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.sub-section {
+  background-color: #1b1b1b;
+  color: #f2f2f2;
+  position: relative;
+  min-height: 700px;
+}
+
+.divider {
+    display: block;
+    margin: 30px 0;
+    width: 100px;
+    height: 2px;
+    background-color: #00b7c7;
+}
+
+.centered-divider {
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 2px;
+  background-color: #00b7c7;
+
+}
