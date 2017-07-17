@@ -83,3 +83,21 @@ background-size: cover;
   background-color: #00b7c7;
 
 }
+
+.about-container, .skills-wrapper {
+  padding-top: 100px;
+}
+
+#skills{
+  background:
+  /* top, transparent black, faked with gradient */
+linear-gradient(
+  rgba(0, 0, 0, 0.6),
+  rgba(0, 0, 0, 0.6)
+),
+  url(../img/office.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
