@@ -130,3 +130,40 @@ ul li:before {
     /*content: "+";*/
     padding-right: 5px;
 }
+
+.screenshots {
+  /*position: relative;*/
+  overflow: hidden;
+  display: block;
+  width: 95%;
+  margin-left: 10px;
+}
+
+.img-lg, .img-md, .img-sm {
+    border: 0;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    border-radius: 2px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.75);
+}
+
+.img-lg{
+  width: 60%;
+  left: 0;
+  z-index: 1;
+}
+
+.img-md{
+  width: 20%;
+  right: 14%;
+  z-index: 2;
+}
+
+.img-sm {
+   width: 15%;
+   right: 20%;
+   top:40px;
+   z-index: 3;
+   box-shadow: 0 5px 5px 0 rgba(0,0,0,.75);
+}
