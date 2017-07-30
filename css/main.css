@@ -44,6 +44,15 @@ nav.navbar.navbar-default {
       color: white;
 }
 
+.title-divider{
+  background-color: #f2f2f2;
+  height: 2px;
+}
+
+.title-logo{
+  padding-top: 150px;
+}
+
 h2.subtitle {
     padding-top: 20px;
     font-family: 'Average',serif;
@@ -97,9 +106,9 @@ linear-gradient(
 ),
   url(../img/office.jpg) no-repeat center center;
   -webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .dev-item {
@@ -184,6 +193,17 @@ ul li:before {
   color: #cbcbcb;
   font-size: 1.2em;
 }
+
+.description-button {
+  margin: 5px;
+  transition: 1s;
+}
+
+.description-button:hover {
+  background: #0040ff;
+
+}
+
 .tech-items{
   margin-left: 0;
   padding-top: 20px;
