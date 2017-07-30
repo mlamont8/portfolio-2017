@@ -49,6 +49,24 @@ nav.navbar.navbar-default {
   height: 2px;
 }
 
+.title-divider, .subtitle {
+  /*animation-delay: .5s;
+  animation-duration: 1s;
+  animation-fill-mode: both;*/
+  animation: fadeInUp 1s .5s both;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+    }
+  100% {
+      opacity: 1;
+      transform:none;
+    }
+}
+
 .title-logo{
   padding-top: 150px;
 }
